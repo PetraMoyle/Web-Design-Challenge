@@ -1,7 +1,22 @@
-.body{
+body{
     margin:0px;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+      display: inline-block;
+    }
+    .assets {
+        padding: 0;
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+  }
 .Latitude-tab{
     background-color:  #4AAAA5;
     color: white !important;
@@ -15,23 +30,12 @@
     border: 20%;
     
 }
-​
-/* .blue{
-    background-color: blue; */
-}
-​
-.container-top{
-    margin-top: 100px;
-    width: 100%;
-    color: #633535;
-}
-
 
 #cities {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    margin-right: 20%;
-    margin-left: 1.5%;
+    margin-right: 1%;
+    margin-left: 5%;
     width: 98%;
 }
   
@@ -64,6 +68,19 @@
     margin-left: 1.5%;
 }
 
-.container data {
-    background-color: darkblue; !important
+
+#summary,
+#vis,
+#comparison,
+#cloudiness,
+#humidity,
+#MT,
+#C,
+#H,
+#WS
+{
+    color: #4AAAA5;
+    font-family: Arial, Helvetica, sans-serif; 
 }
+
+
