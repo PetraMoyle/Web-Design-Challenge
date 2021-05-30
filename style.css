@@ -1,23 +1,7 @@
 body{
     margin:0px;
 }
-
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-@media screen and (max-width: 1000px) {
-    body {
-      display: inline-block;
-    }
-    .assets {
-        padding: 0;
-        margin-top: 0px;
-        padding-left: 20px;
-    }
-  }
-.Latitude-tab{
+.Latitude-tab {
     background-color:  #4AAAA5;
     color: white !important;
     font-weight: bold;
@@ -27,16 +11,15 @@ html {
     margin-bottom: 0px;
     margin-left: 0px;
     padding: 1.5%;
-    border: 20%;
-    
+    border: 20px;
 }
 
 #cities {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    margin-right: 1%;
+    margin-right: 5%;
     margin-left: 5%;
-    width: 98%;
+    width: 95%;
 }
   
 #cities td, #cities th {
@@ -83,4 +66,18 @@ html {
     font-family: Arial, Helvetica, sans-serif; 
 }
 
+@media (max-width: 800px){
+    .navbar {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .body {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
 
+.highlight:hover {
+    border:3px solid #4aaaa5;
+    opacity: .7;
+}
